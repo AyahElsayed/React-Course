@@ -1,8 +1,10 @@
 import './App.css'
 import ClassComp from './MySummary/ClassComp'
 import FuncComp from './MySummary/FuncComp'
-import Clock from './MySummary/StateAndLifecycle/Clock.js'
-import displayTime from './MySummary/StateAndLifecycle/StateAndLifecycle'
+import HandlingEvents from './MySummary/HandlingEvents/HandlingEvents'
+import SimpleProject from './MySummary/HandlingEvents/SimpleProject'
+// import Clock from './MySummary/StateAndLifecycle/Clock.js'
+// import displayTime from './MySummary/StateAndLifecycle/StateAndLifecycle'
 function App() {
   const users = ["A", "B", "C"]
   return (
@@ -15,7 +17,8 @@ function App() {
       </ClassComp> */}
       {/* ===================================== */}
       {/* <Clock date={new Date()} /> */}
-
+      {/* <HandlingEvents /> */}
+      <SimpleProject/>
     </div>
   );
 }

@@ -15,7 +15,7 @@
 // befor rendering, after reciving new props or state
 
 //componentDidUpdate()
-// after component's updates are flushed to DOM
+// after component's updates are flushed to DOM 
 
 // componentWillUnmount()
 // immediately befor removing component from DOM
