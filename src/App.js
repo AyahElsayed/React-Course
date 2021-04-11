@@ -1,5 +1,8 @@
 import './App.css'
 import ClassComp from './MySummary/ClassComp'
+import ConditionalRenderingEx1 from './MySummary/ConditionalRendering/ConditionalRenderingEx1'
+import ConditionalRenderingEx2 from './MySummary/ConditionalRendering/ConditionalRenderingEx2'
+import PreventComponent from './MySummary/ConditionalRendering/PreventingComponent'
 import FuncComp from './MySummary/FuncComp'
 import HandlingEvents from './MySummary/HandlingEvents/HandlingEvents'
 import SimpleProject from './MySummary/HandlingEvents/SimpleProject'
@@ -18,7 +21,10 @@ function App() {
       {/* ===================================== */}
       {/* <Clock date={new Date()} /> */}
       {/* <HandlingEvents /> */}
-      <SimpleProject/>
+      {/* <SimpleProject/> */}
+      {/* <ConditionalRenderingEx1  isLoggedIn={true}/> */}
+      <ConditionalRenderingEx2/>
+      <PreventComponent />
     </div>
   );
 }
