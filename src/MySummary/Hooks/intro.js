@@ -14,3 +14,10 @@ After Hooks
 UseRef =>
     primarily used to allow access directaly to an element in the DOM       
 */
+
+/*
+UseEffect =>
+    - lets you perform side effects in functional component
+    - it is a close replacement for 'componentDidMount' and , 'componentDitUpdate' and 'componentWillUnmount'
+
+*/

@@ -5,10 +5,12 @@ import ConditionalRenderingEx2 from './MySummary/ConditionalRendering/Conditiona
 import PreventComponent from './MySummary/ConditionalRendering/PreventingComponent'
 import FuncComp from './MySummary/FuncComp'
 import HandlingEvents from './MySummary/HandlingEvents/HandlingEvents'
-import SimpleProject from './MySummary/HandlingEvents/SimpleProject'
+// import SimpleProject from './MySummary/HandlingEvents/SimpleProject'
 import InputElement from './MySummary/Hooks/UseState'
 import ImageChangeOnMouseHover from './MySummary/Hooks/UseRef/ImageChangeOnMouseHover'
 import ListsAndKeys from './MySummary/ListsAndKeys'
+import InputFocus from './MySummary/Hooks/UseRef/SimpleEx'
+import ImageChangeOnScroll from './MySummary/Hooks/UseEffect/ImageChangeOnScroll'
 // import Clock from './MySummary/StateAndLifecycle/Clock.js'
 // import displayTime from './MySummary/StateAndLifecycle/StateAndLifecycle'
 function App() {
@@ -30,7 +32,9 @@ function App() {
       <PreventComponent />
       <ListsAndKeys /> */}
       {/* <InputElement /> */}
-      <ImageChangeOnMouseHover />
+      {/* <ImageChangeOnMouseHover /> */}
+      {/* <InputFocus /> */}
+      <ImageChangeOnScroll />
     </div>
   );
 }
