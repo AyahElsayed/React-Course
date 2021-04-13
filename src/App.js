@@ -6,11 +6,13 @@ import PreventComponent from './MySummary/ConditionalRendering/PreventingCompone
 import FuncComp from './MySummary/FuncComp'
 import HandlingEvents from './MySummary/HandlingEvents/HandlingEvents'
 // import SimpleProject from './MySummary/HandlingEvents/SimpleProject'
-import InputElement from './MySummary/Hooks/UseState'
+import InputElement from './MySummary/Hooks/UseState/UseState'
 import ImageChangeOnMouseHover from './MySummary/Hooks/UseRef/ImageChangeOnMouseHover'
 import ListsAndKeys from './MySummary/ListsAndKeys'
 import InputFocus from './MySummary/Hooks/UseRef/SimpleEx'
 import ImageChangeOnScroll from './MySummary/Hooks/UseEffect/ImageChangeOnScroll'
+import BenAwadEx from './MySummary/Hooks/UseState/BenAwadEx'
+import BenAwadEx2 from './MySummary/Hooks/UseState/BenAwadEx2'
 // import Clock from './MySummary/StateAndLifecycle/Clock.js'
 // import displayTime from './MySummary/StateAndLifecycle/StateAndLifecycle'
 function App() {
@@ -31,10 +33,13 @@ function App() {
       {/* <ConditionalRenderingEx2/>
       <PreventComponent />
       <ListsAndKeys /> */}
+      {/* ////////////////// Hooks //////////// */}
       {/* <InputElement /> */}
       {/* <ImageChangeOnMouseHover /> */}
       {/* <InputFocus /> */}
-      <ImageChangeOnScroll />
+      {/* <ImageChangeOnScroll /> */}
+      <BenAwadEx />
+      <BenAwadEx2 />
     </div>
   );
 }
